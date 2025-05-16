@@ -1,2 +1,2 @@
 # dev-video-maker-adk
-Agentic Video Maker
+Content Creator: Agentic Video Maker: for Developer Steps
