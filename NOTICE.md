@@ -1,6 +1,6 @@
 NOTICE
 
-This ADK Agent project is intended to provide open-source code for interacting with the Automation Data Kit (ADK).
+This ADK Agent project is intended to provide open-source code for interacting with the Agent Development Kit (ADK).
 
 Patent Notice:
 
