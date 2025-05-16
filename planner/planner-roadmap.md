@@ -1,59 +1,55 @@
-### Video Planner Roadmap (Screenshot Focused)
+### Video Planner Roadmap (Manual Input & Workflow Focus)
 
-**I. Core Objective (Screenshot Emphasis):**
+**I. Core Objective (Manual Input & Workflow):**
 
-* **Primary Goal:** Develop a "planner" component that *seamlessly integrates presentation details*, with a strong focus on supporting screenshot-based video creation, enhancing efficiency and cost-effectiveness.
-* **MVP:** A user interface that allows developers to input detailed presentation content (text, images, code snippets, etc.) and automatically generates a structured video plan optimized for use with screenshots, including cost-saving strategies and efficient workflows.
-* **Key Emphasis:** The tool should minimize the manual effort of translating presentation content into a video script or storyboard, *specifically considering the constraints and opportunities of using screenshots*.
+* **Primary Goal:** Develop a "planner" component that guides users through a well-structured process for planning video content, with a focus on efficiency and cost-effectiveness, primarily through manual input of presentation details.
+* **MVP:** A user interface that allows developers to manually input key video parameters and presentation content, and generates a structured video plan outlining cost-saving strategies and efficient workflows.
+* **Key Emphasis:** The tool should provide a clear, step-by-step process for translating ideas and content into a viable video plan, particularly for screenshot-based videos.
 
-**II. Key Features (Enhanced for Screenshots):**
+**II. Key Features (Manual Input Focused):**
 
-* **Integrated Content Input:**
-    * **Import Presentation Data:** Enable users to import existing presentation files (e.g., Markdown, slide decks, code repositories) directly.
-    * **Structured Content Parsing:** Automatically parse imported content to identify key elements (headings, bullet points, code examples, images) and structure them for video adaptation.
-    * **Content Transformation (Screenshot Optimized):** Offer tools to adapt presentation content for screenshot-based videos:
-        * **Screenshot Guidance:** Provide recommendations on what types of screenshots to capture (e.g., full application window, specific UI elements, code output).
-        * **Annotation Planning:** Facilitate the planning of annotations (arrows, text callouts, highlights) to be added to screenshots.
-        * **Sequence Planning:** Help users plan the sequence of screenshots to tell a clear and concise story.
+* **Structured Manual Input:**
+    * Provide clear fields for users to input their video topic, key messages, target audience, and desired video length.
+    * Offer structured sections for outlining video content (e.g., scenes, talking points, visual ideas).
+    * Include specific prompts to guide users in breaking down their presentation content into video segments.
+    * Facilitate the manual entry of potential screenshots and their intended sequence.
 
-* **Automated Plan Generation:**
-    * **Script/Storyboard Generation (Screenshot Focused):** Automatically generate a draft script or storyboard optimized for screenshot-based narration:
-        * Include placeholders for screenshots.
-        * Suggest narration points that describe the screenshots.
-        * Provide guidance on timing and pacing for screenshot transitions.
-    * **Scene Breakdown (Screenshot Grouping):** Suggest a logical breakdown of the video into scenes, grouping related screenshots.
-    * **Visual Asset Suggestions (Screenshot Enhancement):** Recommend ways to enhance screenshots:
-        * Suggest tools for adding annotations.
-        * Offer guidance on using zoom and pan effects on screenshots.
-        * Provide tips for creating visually appealing transitions between screenshots.
+* **Workflow Guidance:**
+    * Present a clear, recommended workflow for video creation, from planning to editing.
+    * Offer templates or frameworks for structuring different types of videos (e.g., tutorials, demos).
+    * Provide checklists and prompts to ensure all necessary planning steps are considered.
 
-* **Cost-Effective Workflow Suggestions (Enhanced for Screenshots):**
-    * **Efficient Screenshot Capture:** Recommend tools and techniques for capturing high-quality screenshots quickly.
-    * **Free Annotation Tools:** Suggest free or low-cost tools for annotating and editing screenshots.
-    * **Streamlined Editing:** Offer guidance on using video editing software to create engaging videos from sequences of screenshots.
+* **Cost-Saving Strategies (Integrated):**
+    * Offer context-sensitive tips and suggestions for cost-effective approaches at each stage of the manual planning process (e.g., planning for reusable assets, suggesting free software alternatives).
+    * Encourage users to consider budget constraints during the initial planning phases.
 
-* **Iterative Refinement:**
-    * **Plan Customization:** Allow users to easily customize the generated plan, adjusting the script, storyboard, and screenshot sequence.
-    * **Feedback & Collaboration:** (If time allows) Consider features for sharing the plan and collaborating with team members on screenshot selection and annotation.
+* **Screenshot Optimization Guidance:**
+    * Provide best practices for planning effective screenshot usage (e.g., clear visuals, minimal on-screen clutter, strategic annotations).
+    * Offer advice on sequencing screenshots logically and pacing their display.
 
-**III. Development Stages (Hackathon Focused - Screenshot Driven):**
+* **Iterative Planning:**
+    * Allow users to easily revisit and refine their plan based on new ideas or constraints.
+    * Provide options for organizing and rearranging planned content and screenshots.
 
-* **Phase 1: Content Parsing & Structuring:**
-    * Develop the core logic for parsing presentation files and extracting relevant content.
-    * Design data structures to represent the structured content and its relationship to the screenshot-based video plan.
-* **Phase 2: Automated Plan Generation (MVP - Screenshot Optimized):**
-    * Implement the algorithms for generating a draft script/storyboard that incorporates screenshot placeholders and narration cues.
-    * Focus on creating a basic, functional output that demonstrates the core concept of planning a video using screenshots.
-* **Phase 3: UI & Workflow Integration (Screenshot Workflow):**
-    * Develop a user interface that allows users to import content, view the generated plan, and customize it, with a workflow tailored for screenshots.
-    * Integrate the plan generation with cost-saving and workflow suggestions specific to screenshot-based video creation.
-* **Phase 4 (Stretch Goal): Enhanced Refinement & Iteration:**
-    * Improve the accuracy and quality of the generated plan, with a focus on screenshot integration.
-    * Explore features for iterative refinement and collaboration, including tools for managing and annotating screenshots within the planning process.
+**III. Development Stages (Hackathon Focused - Manual Workflow):**
 
-**IV. Why This Approach Maximizes Hackathon Potential (Screenshot Focused):**
+* **Phase 1: Core Planning Structure & Input UI:**
+    * Design the fundamental structure for the video plan (e.g., sections for overview, content outline, visual plan, workflow).
+    * Develop a user interface with clear and intuitive input fields for manual data entry.
+* **Phase 2: Workflow Guidance & Cost-Saving Tips:**
+    * Integrate the recommended video creation workflow into the planner interface.
+    * Add context-sensitive cost-saving tips and best practices throughout the planning process.
+* **Phase 3: Screenshot Planning Features:**
+    * Implement specific features for planning screenshot usage, such as sequencing and annotation notes.
+    * Refine the input fields and UI to effectively capture information relevant to screenshot-based videos.
+* **Phase 4 (Stretch Goal): Plan Output & Export:**
+    * Develop a way for users to view and export their completed video plan (e.g., as a text file, Markdown, or a simple structured document).
 
-* **Addresses a Common Use Case:** Many developers create videos using primarily screenshots (e.g., tutorials, demos), so this approach directly addresses a real need.
-* **Highly Achievable MVP:** Creating a planner that optimizes for screenshots is a very achievable goal within a Hackathon timeframe.
-* **Provides Immediate Value:** Even without full video generation, this tool provides immediate value by making the screenshot-based video creation process much more efficient.
-* **Strong Foundation for Future Development:** This approach can be easily extended to incorporate video generation capabilities in the future, building upon the solid foundation of a screenshot-optimized planning tool.
+**IV. Why This Approach Maximizes Hackathon Potential (Manual Workflow):**
+
+* **Simplified Scope:** Focusing on manual input and workflow guidance significantly reduces the complexity compared to automated importing.
+* **Achievable MVP:** A functional planner with clear input fields and workflow guidance is a realistic goal for a Hackathon.
+* **Provides Immediate Value:** Even without automation, a well-structured planning process can greatly improve efficiency and reduce costs for video creators.
+* **Strong User Control:** Manual input ensures users have complete control over their plan and can tailor it precisely to their needs.
+
+This revised roadmap prioritizes a robust and user-friendly manual planning process, which is a more manageable scope for a Hackathon while still delivering significant value. And for the `.md` file name, **`planner-roadmap.md`** still seems appropriate as it accurately describes the content.
