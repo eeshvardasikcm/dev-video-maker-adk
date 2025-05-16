@@ -20,6 +20,7 @@ This document marks the official start of the documentation process for the "Age
 2.  **Content Creator: Agentic Video Maker:** (This Repository)
     * **Copyright:** Eeshvar Das (Initially. Potential to become open source early in the Hackathon).
     * **Purpose:** To manage and facilitate the agentic video generation process for documenting the "Agentic Expense Reducer."
+    * **Potential Future Purpose:** To serve as a general tool for anyone needing to document a developer-oriented project, provided they follow the structured input guides provided by the agent.
 
 ## Documentation Strategy Overview
 
