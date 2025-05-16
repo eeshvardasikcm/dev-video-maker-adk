@@ -1,55 +1,44 @@
-### Video Planner Roadmap (Manual Input & Workflow Focus)
+### Video Planner Roadmap (Core Planning & Workflow)
 
-**I. Core Objective (Manual Input & Workflow):**
+**I. Core Objective (Focused Planning):**
 
-* **Primary Goal:** Develop a "planner" component that guides users through a well-structured process for planning video content, with a focus on efficiency and cost-effectiveness, primarily through manual input of presentation details.
-* **MVP:** A user interface that allows developers to manually input key video parameters and presentation content, and generates a structured video plan outlining cost-saving strategies and efficient workflows.
-* **Key Emphasis:** The tool should provide a clear, step-by-step process for translating ideas and content into a viable video plan, particularly for screenshot-based videos.
+* **Primary Goal:** Develop a "planner" component that guides users through a focused process for structuring video content and outlining a production workflow, emphasizing efficiency within development timelines.
+* **MVP:** A user interface that allows developers to input their video topic and break down their content into sequential segments, forming the basis of a video plan and workflow.
+* **Key Emphasis:** The tool should provide a clear, step-by-step method for organizing video content and considering the practicalities of its creation, particularly for scenarios where simple visual elements like screenshots are the primary output.
 
-**II. Key Features (Manual Input Focused):**
+**II. Key Features (Core Planning Elements):**
 
-* **Structured Manual Input:**
-    * Provide clear fields for users to input their video topic, key messages, target audience, and desired video length.
-    * Offer structured sections for outlining video content (e.g., scenes, talking points, visual ideas).
-    * Include specific prompts to guide users in breaking down their presentation content into video segments.
-    * Facilitate the manual entry of potential screenshots and their intended sequence.
+* **Sequential Content Input:**
+    * Provide a straightforward way for users to define the key sections or scenes of their video in a sequential order.
+    * Offer a simple text field for describing the content of each segment (e.g., talking points, on-screen visuals).
+* **Workflow Outline:**
+    * Present a basic recommended workflow for video creation (e.g., Plan -> Record/Capture -> Edit -> Finalize).
+    * Include prompts for users to consider the resources needed for each stage based on their content plan.
+* **Practical Considerations:**
+    * Incorporate prompts that encourage users to think about the time required for each segment and the overall project.
+    * Offer general tips for efficient content presentation, keeping in mind potential limitations in visual complexity.
 
-* **Workflow Guidance:**
-    * Present a clear, recommended workflow for video creation, from planning to editing.
-    * Offer templates or frameworks for structuring different types of videos (e.g., tutorials, demos).
-    * Provide checklists and prompts to ensure all necessary planning steps are considered.
+* **Iterative Structuring:**
+    * Allow users to easily add, remove, and reorder video segments as their plan evolves.
 
-* **Cost-Saving Strategies (Integrated):**
-    * Offer context-sensitive tips and suggestions for cost-effective approaches at each stage of the manual planning process (e.g., planning for reusable assets, suggesting free software alternatives).
-    * Encourage users to consider budget constraints during the initial planning phases.
+**III. Development Stages (Hackathon Focused - Core Structure):**
 
-* **Screenshot Optimization Guidance:**
-    * Provide best practices for planning effective screenshot usage (e.g., clear visuals, minimal on-screen clutter, strategic annotations).
-    * Offer advice on sequencing screenshots logically and pacing their display.
+* **Phase 1: Basic Content Sequencing UI:**
+    * Design a simple interface where users can input and order the segments of their video.
+    * Implement the underlying data structure to store the sequence and descriptions.
+* **Phase 2: Workflow Integration:**
+    * Add a section to the planner that outlines the basic video creation workflow.
+    * Link the workflow stages to the content segments, prompting users to consider actions for each.
+* **Phase 3: Practical Prompts:**
+    * Integrate prompts that encourage users to think about time and resource considerations for their planned content.
+* **Phase 4 (Stretch Goal): Simple Plan Output:**
+    * Enable users to export their basic video plan in a readable format (e.g., plain text).
 
-* **Iterative Planning:**
-    * Allow users to easily revisit and refine their plan based on new ideas or constraints.
-    * Provide options for organizing and rearranging planned content and screenshots.
+**IV. Why This Approach Maximizes Hackathon Potential (Core Structure):**
 
-**III. Development Stages (Hackathon Focused - Manual Workflow):**
+* **Highly Focused Scope:** By concentrating on the fundamental structure and workflow, the project becomes very manageable within the Hackathon timeframe.
+* **Achievable MVP:** A basic planner for sequencing content and outlining workflow is a realistic and valuable deliverable.
+* **Provides Foundational Value:** This core planning tool lays the groundwork for more advanced features in the future.
+* **Adaptable to Constraints:** The simplicity of the plan accommodates the potential limitations in video output options.
 
-* **Phase 1: Core Planning Structure & Input UI:**
-    * Design the fundamental structure for the video plan (e.g., sections for overview, content outline, visual plan, workflow).
-    * Develop a user interface with clear and intuitive input fields for manual data entry.
-* **Phase 2: Workflow Guidance & Cost-Saving Tips:**
-    * Integrate the recommended video creation workflow into the planner interface.
-    * Add context-sensitive cost-saving tips and best practices throughout the planning process.
-* **Phase 3: Screenshot Planning Features:**
-    * Implement specific features for planning screenshot usage, such as sequencing and annotation notes.
-    * Refine the input fields and UI to effectively capture information relevant to screenshot-based videos.
-* **Phase 4 (Stretch Goal): Plan Output & Export:**
-    * Develop a way for users to view and export their completed video plan (e.g., as a text file, Markdown, or a simple structured document).
-
-**IV. Why This Approach Maximizes Hackathon Potential (Manual Workflow):**
-
-* **Simplified Scope:** Focusing on manual input and workflow guidance significantly reduces the complexity compared to automated importing.
-* **Achievable MVP:** A functional planner with clear input fields and workflow guidance is a realistic goal for a Hackathon.
-* **Provides Immediate Value:** Even without automation, a well-structured planning process can greatly improve efficiency and reduce costs for video creators.
-* **Strong User Control:** Manual input ensures users have complete control over their plan and can tailor it precisely to their needs.
-
-This revised roadmap prioritizes a robust and user-friendly manual planning process, which is a more manageable scope for a Hackathon while still delivering significant value. And for the `.md` file name, **`planner-roadmap.md`** still seems appropriate as it accurately describes the content.
+For the `.md` file name, sticking with **`planner-roadmap.md`** still makes sense as it accurately reflects the content – a roadmap for the planner component.
