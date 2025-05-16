@@ -1,6 +1,6 @@
 # dev-video-maker-adk
 
-## Agentic Video Maker: for Developer Steps (Content Creator)
+## Agentic Video Maker: for Developer Steps (Content Creation)
 
 This is a new repository that I will set up on GitHub for the purpose of documenting my Agentic Expense Reducer. This repository will begin with Copyright Eeshvar Das (me), but might possibly become an open source repository early during the Hackathon. This Agentic Video Maker is also being entered as a submission into the ADK Hackathon Sponsored by Google. It is possible that the complexities of my Agentic Expense Reducer will be too many for me to iterate through before the submission deadline. This project, hopefully will be less complex and easier to finalize a submission.
 
