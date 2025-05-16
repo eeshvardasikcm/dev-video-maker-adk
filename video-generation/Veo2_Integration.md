@@ -10,9 +10,9 @@ The primary focus for video generation in this Hackathon is to directly utilize 
 * **Focus on Feature Implementation:** The goal is to quickly integrate and showcase compelling video generation features.
 * **Potential for Rapid Results:** By directly engaging with Veo 2's production features (such as an API, if available), we aim for tangible results within the Hackathon timeframe.
 
-## Reliance on Owned Open Source Repository
+## Core of the Hackathon Submission: This Open Source Repository
 
-The current plan is to depend on **this open-source video creator repository**, which is owned and maintained by the project team. This will allow for greater control and customization of the video generation process.
+This open-source video creator repository, owned and maintained by the project team, **is the central submission for the Hackathon**. Therefore, the successful integration of Veo 2 for video generation is critical. The goal is to create a functional and impactful video creator that meets the Hackathon requirements. Furthermore, the intention is to personally utilize this video creator if the Hackathon submission is successful.
 
 ## Immediate Next Steps (Accelerated Development)
 
