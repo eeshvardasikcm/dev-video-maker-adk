@@ -1,6 +1,6 @@
 NOTICE
 
-This ADK Agent project provides open-source code for creating a video generator agent using the Agent Development Kit (ADK). This repository serves as an example of how to create a specific type of agent (a video generator) with the ADK. The final, redistributable form of this agent is intended to be a video generator.
+This ADK Agent project is a video generator agent. The code in this repository represents a complete, open-source video generator agent, built using the Agent Development Kit (ADK). This is not a tool or library for creating video generators; rather, it is the agent itself, in its final working software form.
 
 Patent Notice:
 
