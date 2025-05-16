@@ -2,6 +2,10 @@
 
 This document outlines the strategy for integrating Veo 2 into the Dev Video Maker project for video generation, specifically within the context of a Hackathon where rapid progress and production-ready solutions are paramount.
 
+**Project Owner:** Eeshvar Das
+
+**Current Team:** Eeshvar Das (Solo) - Open to potential team members joining.
+
 ## Initial Direction: Leveraging Veo 2
 
 The primary focus for video generation in this Hackathon is to directly utilize the production capabilities of **Veo 2**. The rationale for this choice includes:
@@ -12,7 +16,7 @@ The primary focus for video generation in this Hackathon is to directly utilize 
 
 ## Core of the Hackathon Submission: This Owned Open Source Repository
 
-This open-source video creator repository, owned and maintained by the project team, **is the central submission for the Hackathon**. Therefore, the successful integration of Veo 2 for video generation is critical. The goal is to create a functional and impactful video creator that meets the Hackathon requirements. Furthermore, the intention is to personally utilize this video creator if the Hackathon submission is successful.
+This open-source video creator repository, owned and maintained by Eeshvar Das, **is the central submission for the Hackathon**. Therefore, the successful integration of Veo 2 for video generation is critical. The goal is to create a functional and impactful video creator that meets the Hackathon requirements. Furthermore, the intention is for Eeshvar Das to personally utilize this video creator if the Hackathon submission is successful.
 
 ## Important Consideration: Hackathon Rules and Veo 2 Usage
 
@@ -23,7 +27,7 @@ Before fully committing to Veo 2, it is essential to **verify its acceptability 
 * **API Key and Access:** Investigating the process for obtaining necessary API keys or access credentials for Veo 2 and ensuring this aligns with the Hackathon timeline and requirements.
 * **Potential Restrictions:** Identifying any limitations on video generation quotas, watermarking, or content restrictions that might impact the Hackathon submission.
 
-**The immediate next step is to address these administrative considerations to ensure the feasibility and compliance of using Veo 2 within the Hackathon.**
+**The immediate next step is for Eeshvar Das to address these administrative considerations to ensure the feasibility and compliance of using Veo 2 within the Hackathon.**
 
 ## Immediate Next Steps (Assuming Veo 2 is Permitted)
 
@@ -39,9 +43,9 @@ Before fully committing to Veo 2, it is essential to **verify its acceptability 
 ## Potential Challenges (and Mitigation Strategies)
 
 * **Cost and Access (within Hackathon Rules):** Understand any costs associated with Veo 2 usage and ensure they are permissible within the Hackathon context.
-* **Complexity and Learning Curve:** While aiming for rapid implementation, we need to quickly understand the core functionalities of the Veo 2 API/SDK, keeping in mind any time constraints imposed by the Hackathon rules.
+* **Complexity and Learning Curve:** While aiming for rapid implementation, Eeshvar Das will need to quickly understand the core functionalities of the Veo 2 API/SDK, keeping in mind any time constraints imposed by the Hackathon rules.
 * **Integration Efficiency:** Focus on streamlined integration methods to minimize development time, adhering to the Hackathon's deadlines.
 
 ## Contributions
 
-Active contributions focused on rapid and effective integration of Veo 2 for video generation are highly encouraged, **contingent on its permissibility within the Hackathon rules**. Please prioritize solutions that can be quickly implemented and demonstrated within the Hackathon timeframe. Open issues and focused pull requests are welcome!
+While currently solo, potential team members are welcome to contribute, contingent on Veo 2's permissibility within the Hackathon rules. Please prioritize solutions that can be quickly implemented and demonstrated within the Hackathon timeframe. Open issues and focused pull requests are welcome!
