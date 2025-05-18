@@ -6,7 +6,7 @@
 
 **II. Key Features:**
 
-* Simple, manual UI for associating a captured screenshot (via file selection or similar) with a specific point in the video creation process.
+* Design for a simple, manual UI for associating a captured screenshot (via file selection or similar) with a specific point in the video creation process.
 * Primary focus: Intuitive UI elements for immediately recording the decision, context, and rationale associated with the *current* screenshot through manual text input.
 * Design for clear, manual indexing of decisions linked to the sequence of captured screenshots as they are added.
 * Emphasis on a natural, manual workflow for documenting the "why" at the point of creation.
