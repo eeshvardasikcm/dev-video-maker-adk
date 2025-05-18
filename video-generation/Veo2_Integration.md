@@ -1,45 +1,49 @@
-# Veo 2 Integration Strategy for Dev Video Maker (Hackathon Pivot)
+# Veo 2 Integration Exploration for Dev Video Maker
 
-This document outlines the revised strategy for leveraging Veo 2 within the Dev Video Maker project for the current Hackathon. This strategy acknowledges the decision **not to pursue direct API integration with Veo 2 during the Hackathon**, while still recognizing its potential manual utility for showcasing production-ready results.
+This document outlines the current considerations for integrating Veo 2 into the Dev Video Maker project for video generation. This exploration acknowledges the recent decision that this specific integration **may not be part of the immediate Hackathon submission process**.
 
 **Project Owner:** Eeshvar Das
 
 **Current Team:** Eeshvar Das (Solo) - Open to potential team members joining.
 
-## Revised Direction: Manual Veo 2 Usage and Focus on Core App
+## Current Focus: Veo 2 Integration Exploration (Separate from Hackathon Submission)
 
-The primary focus for video generation within the code developed during this Hackathon will **not** be a direct programmatic integration with the Veo 2 API. Instead, the strategy shifts to:
+The primary focus regarding Veo 2 is now on **exploring its potential integration into the Dev Video Maker project**, with the understanding that this specific aspect might not be a core component of the Hackathon submission. This allows for a more investigative and potentially less time-constrained approach to understanding Veo 2's capabilities.
 
-* **Developing Core Video Maker Functionality:** Concentrating on building the fundamental features and architecture of the Dev Video Maker application itself, leveraging other available tools and techniques for video manipulation and generation within the Hackathon timeframe.
-* **Potential Manual Veo 2 for Demo:** Recognizing Veo 2's high-quality output, there's a possibility of using it *manually* to generate video segments or examples that can be incorporated into the Hackathon demo to showcase the *potential* production quality the Dev Video Maker could achieve with future Veo 2 integration.
+The rationale for this exploration includes:
 
-## Core of the Hackathon Submission: This Owned Open Source Repository
+* **Future Feature Potential:** Veo 2's high-quality output remains a desirable future feature for the Dev Video Maker.
+* **Learning and Experimentation:** This provides an opportunity to learn about Veo 2's API or manual workflows without the immediate pressure of Hackathon deadlines.
+* **Informing Future Development:** Insights gained from this exploration will be valuable for the long-term development roadmap of the Dev Video Maker.
 
-This open-source video creator repository, owned and maintained by Eeshvar Das, **remains the central submission for the Hackathon**. The success of the submission will now hinge on the robustness and functionality of the core video creator application developed within the Hackathon, potentially supplemented by manually generated Veo 2 examples for demonstration purposes. The intention remains for Eeshvar Das to personally utilize this video creator if the Hackathon submission is successful.
+## Core of the Hackathon Submission: [To be Determined Separately]
 
-## Important Consideration: Hackathon Rules and Veo 2 Usage (Manual)
+The central submission for the Hackathon will be determined through a separate strategic process. This document now focuses specifically on the exploration of Veo 2 integration as a potentially parallel or subsequent effort.
 
-While direct API integration is off the table for now, it is still prudent to **briefly verify the permissibility of using manually generated Veo 2 content within the Hackathon demo**, if that becomes the chosen route for showcasing high-quality output. This includes:
+## Important Consideration: Veo 2 Usage (Exploration Phase)
 
-* **Reviewing Hackathon Rules:** Confirming there are no restrictions on using externally created media within the demo.
-* **Veo 2 Terms of Service:** Ensuring that manually created content aligns with Veo 2's terms of service for demonstration purposes.
-* **Attribution (if required):** Being prepared to provide appropriate attribution if manually generated Veo 2 content is used in the demo.
+As this is now primarily an exploration, the key considerations shift towards understanding Veo 2's potential without the immediate constraints of the Hackathon:
 
-**The immediate next step remains for Eeshvar Das to address these administrative considerations regarding the potential use of manually generated Veo 2 content in the Hackathon demo.**
+* **Reviewing Veo 2 Capabilities:** Investigating its features, potential APIs, SDKs, or manual workflows relevant to video generation.
+* **Veo 2 Terms of Service:** Understanding Veo 2's terms of service for general usage and development.
+* **API Key and Access (for future potential):** Familiarizing oneself with the process for obtaining necessary API keys or access credentials for Veo 2 for potential future integration.
+* **Potential Restrictions (for future awareness):** Identifying any limitations on video generation quotas, watermarking, or content restrictions for future planning.
 
-## Immediate Next Steps (Focusing on Core App Development)
+**The immediate next step is for Eeshvar Das to begin exploring Veo 2's capabilities and potential integration points, independent of the Hackathon submission timeline.**
 
-1.  **Prioritize Core Features:** Immediately focus on implementing the key video maker functionalities using available libraries and techniques (e.g., for video editing, compositing, or basic generative methods).
-2.  **Explore Alternative Generation Methods:** Investigate and implement alternative methods for video generation or manipulation that can be directly integrated into the Dev Video Maker within the Hackathon timeframe.
-3.  **Structure for Future Integration:** Design the application architecture with clear points where a future Veo 2 API integration could be seamlessly incorporated.
-4.  **Dependency Management:** Identify and manage the production-level libraries required for the core video maker functionalities.
+## Immediate Next Steps (Veo 2 Exploration)
 
-## Potential Challenges (and Mitigation Strategies)
+1.  **Initial Veo 2 Capability Research:** Begin researching Veo 2's features, documentation, and any available APIs or SDKs.
+2.  **Manual Workflow Exploration:** If an API/SDK isn't the immediate focus, explore Veo 2's manual video generation capabilities and how they might align with the Dev Video Maker's goals.
+3.  **High-Level Integration Brainstorming:** Start brainstorming potential ways Veo 2 could be integrated into the Dev Video Maker architecture in the future.
+4.  **Dependency Awareness (for future):** Keep a mental note of any potential dependencies that might arise from a future Veo 2 integration.
 
-* **Achieving High-Quality Output (Without Direct Veo 2 API):** The challenge will be to create compelling video output using alternative methods within the Hackathon. Focus on demonstrating strong foundational features and a clear path towards future high-quality generation.
-* **Time Constraints:** Efficient development of the core video maker features remains critical within the Hackathon's deadlines.
-* **Manual Veo 2 Workflow (If Used):** If manual Veo 2 generation is used for the demo, ensure a streamlined workflow for creating and incorporating those examples.
+## Potential Considerations (Long-Term)
+
+* **Cost and Access:** Future integration will need to consider any costs associated with Veo 2 usage.
+* **Complexity and Learning Curve:** Understanding the intricacies of Veo 2 will be a longer-term effort.
+* **Integration Strategy:** A clear strategy for how Veo 2 will interact with the core Dev Video Maker will need to be developed.
 
 ## Contributions
 
-While currently solo, potential team members are welcome to contribute, focusing on the development of the core video maker functionalities that can be implemented and demonstrated within the Hackathon timeframe. Open issues and focused pull requests are welcome!
+While currently solo, potential team members are welcome to contribute to the core Dev Video Maker project, the direction of which for the Hackathon will be determined separately. Input on Veo 2 exploration is also welcome for long-term planning.
