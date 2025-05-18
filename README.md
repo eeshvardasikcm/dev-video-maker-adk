@@ -1,4 +1,4 @@
-{# dev-video-maker-adk
+# dev-video-maker-adk
 
 ## Agentic Video Maker: for Developer Steps (Content Creation)
 
@@ -10,4 +10,4 @@ During the development of developer oriented creator processes, the Developer St
 
 ### Project Documentation Plan
 
-For a detailed plan and timeline regarding the documentation strategy for the Hackathon video submission, please see the **[Project Documentation Kickoff](./documentation-kickstart.md)**. This document outlines the initial steps and priorities for generating video and blog-style documentation using this Agentic Video Maker.}
+For a detailed plan and timeline regarding the documentation strategy for the Hackathon video submission, please see the **[Project Documentation Kickoff](./documentation-kickstart.md)**. This document outlines the initial steps and priorities for generating video and blog-style documentation using this Agentic Video Maker.
