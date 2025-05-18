@@ -1,47 +1,45 @@
-### Video Planner Roadmap (Core Sequence)
+### Video Planner Roadmap (Core Sequence - Decision-Centric)
 
 **I. Goal:**
 
-* Develop a basic "planner" to define the sequential order and key narrative for a video composed of screenshots.
+* Develop a basic "planner" focused on indexing sequential decisions and their impact on the implementation process for a video composed of screenshots.
 
 **II. Key Features:**
 
-* Simple interface for inputting a sequence of screenshots.
-* Ability to add a brief description/narrative for each screenshot.
-* Clear indication of the planned order.
+* Mechanism to input a sequence of screenshots (basic placeholder or file reference).
+* Primary focus: Ability to record a decision/rationale associated with *each* screenshot in the sequence.
+* Clear indication of the planned order of screenshots.
+* Emphasis on documenting the *why* behind the sequential decisions.
 
 **III. Development Stages (Hackathon Focus) & Incremental Documentation:**
 
-* **Phase 1: Basic UI for Ordering Screenshots.**
-    * **Development:** Implement a user interface that allows for adding and reordering screenshots.
+* **Phase 1: Basic Sequential Input and Decision Recording.**
+    * **Development:** Implement a simple way to define a sequence of screenshots (e.g., by name or placeholder). For *each* screenshot, provide a direct input field for recording the decision or rationale that led to its inclusion and placement in the sequence.
     * **Documentation (Make It Happen):**
-        * **Short Notes Alongside Code:** Comment the logic behind the UI elements and the data structure used to store the order of screenshots.
-        * **Quick Markdown Snippets:** Create a brief `.md` file (e.g., `phase1_ui.md`) outlining the chosen UI framework/library and the rationale for its selection.
-        * **Focus on the "Why":** Briefly note why a particular ordering mechanism (e.g., drag-and-drop, numbered list) was chosen over alternatives.
+        * **Short Notes Alongside Code:** Thoroughly comment the data structures used to store the sequence of screenshots and their associated decisions. Explain how the link between the screenshot and the decision is maintained.
+        * **Quick Markdown Snippets:** Create a `.md` file (e.g., `phase1_decision_model.md`) detailing the schema or data model used to represent the screenshot sequence and the decision for each step.
+        * **Focus on the "Why":** Explicitly document the reasoning behind the chosen data model for linking decisions to the sequence.
 
-* **Phase 2: Add Narrative Input for Each Screenshot.**
-    * **Development:** Implement UI elements for adding a text description or narrative to each uploaded screenshot.
+* **Phase 2: Displaying the Decision-Indexed Sequence.**
+    * **Development:** Implement a view that clearly displays the ordered sequence of screenshots, with the corresponding decision/rationale visible for each step.
     * **Documentation (Make It Happen):**
-        * **Short Notes Alongside Code:** Comment the code related to the narrative input fields and how this data is associated with each screenshot.
-        * **Quick Markdown Snippets:** Update the `.md` file or create a new one (e.g., `phase2_narrative.md`) describing how the narrative data is structured and stored.
-        * **Focus on the "Why":** Briefly explain the design choice for the narrative input method (e.g., simple text field vs. rich text editor).
+        * **Short Notes Alongside Code:** Comment the code responsible for retrieving and displaying the ordered sequence and the associated decisions.
+        * **Quick Markdown Snippets:** Update the `.md` file or create a new one (e.g., `phase2_decision_display.md`) describing how the decisions are presented in relation to the screenshot sequence.
+        * **Focus on the "Why":** Document the design choices for how the decisions are visually presented to ensure clarity and understanding of the sequential logic.
 
-* **Phase 3: Display the Planned Sequence and Narrative.**
-    * **Development:** Implement a view that clearly displays the ordered sequence of screenshots along with their corresponding narratives.
+* **Phase 3: Simple Export of Decisions and Sequence.**
+    * **Development:** Implement a basic mechanism to export the ordered sequence of screenshots along with the recorded decisions (e.g., to a structured text file or JSON).
     * **Documentation (Make It Happen):**
-        * **Short Notes Alongside Code:** Comment the code responsible for rendering the ordered list and displaying the narrative for each item.
-        * **Quick Markdown Snippets:** Update the `.md` files to include details on how the planned sequence is visually presented to the user. Consider a simple diagram in the `.md` if the display logic is complex.
-        * **Focus on the "Why":** Briefly explain the design choices for the visual layout of the planned sequence and narrative.
+        * **Short Notes Alongside Code:** Comment the export functionality, clearly indicating how the screenshot sequence and the associated decisions are structured in the output format.
+        * **Quick Markdown Snippets:** Create a `.md` file (e.g., `phase3_decision_export.md`) detailing the chosen export format and the rationale for including both the sequence and the decisions.
+        * **Focus on the "Why":** Explain why this specific export format was chosen for capturing both the sequence and the underlying decisions.
 
-* **Phase 4 (Stretch): Simple Export of the Plan.**
-    * **Development:** Implement a basic mechanism to export the planned sequence and narratives (e.g., to a text file or JSON).
-    * **Documentation (Make It Happen):**
-        * **Short Notes Alongside Code:** Comment the code related to the export functionality and the chosen output format.
-        * **Quick Markdown Snippets:** Create a brief `.md` file (e.g., `phase4_export.md`) describing the chosen export format and the rationale behind it.
-        * **Focus on the "Why":** Briefly explain why a particular export format was selected for this initial version.
+* **Phase 4 (Stretch): Basic UI for Ordering (If Time Permits).**
+    * **Development:** If time allows, implement a basic UI to visually reorder the screenshots, ensuring that the associated decisions move with their respective screenshots.
+    * **Documentation (Make It Happen):** Document the UI implementation and how it interacts with the underlying data structure that links screenshots and decisions.
 
 **IV. Why This Matters:**
 
-* Provides a foundational tool for planning screenshot-based videos within the Hackathon timeframe.
-* Establishes the core logic for future video creation features.
-* **Benefits from Incremental Documentation:** By documenting design decisions at each stage, the codebase will be more understandable for future iterations and easier to maintain, even within the rapid Hackathon development.
+* Prioritizes the critical aspect of indexing sequential decisions and their impact on the implementation process, which is key for understanding the video's creation logic.
+* Establishes a strong foundation for future UI enhancements and more complex video creation features, grounded in well-documented sequential reasoning.
+* The focus on documenting the "why" behind each step directly aligns with the need to capture the implementation process.
