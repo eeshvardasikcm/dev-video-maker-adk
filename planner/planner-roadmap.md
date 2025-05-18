@@ -1,45 +1,45 @@
-### Video Planner Roadmap (Core Sequence - Decision-Centric)
+### Developer Video Creator Roadmap (Manual Decision-Driven Indexing)
 
 **I. Goal:**
 
-* Develop a basic "planner" focused on indexing sequential decisions and their impact on the implementation process for a video composed of screenshots.
+* Develop a manual-entry UI tool for developers to index and document the sequential decisions and rationales made during the creation of a developer-focused video composed of screenshots, where the order of screenshots is determined by the manual capture process.
 
 **II. Key Features:**
 
-* Mechanism to input a sequence of screenshots (basic placeholder or file reference).
-* Primary focus: Ability to record a decision/rationale associated with *each* screenshot in the sequence.
-* Clear indication of the planned order of screenshots.
-* Emphasis on documenting the *why* behind the sequential decisions.
+* Simple, manual UI for associating a captured screenshot (via file selection or similar) with a specific point in the video creation process.
+* Primary focus: Intuitive UI elements for immediately recording the decision, context, and rationale associated with the *current* screenshot through manual text input.
+* Clear, manual indexing of decisions linked to the sequence of captured screenshots as they are added.
+* Emphasis on a natural, manual workflow for documenting the "why" at the point of creation.
 
 **III. Development Stages (Hackathon Focus) & Incremental Documentation:**
 
-* **Phase 1: Basic Sequential Input and Decision Recording.**
-    * **Development:** Implement a simple way to define a sequence of screenshots (e.g., by name or placeholder). For *each* screenshot, provide a direct input field for recording the decision or rationale that led to its inclusion and placement in the sequence.
-    * **Documentation (Make It Happen):**
-        * **Short Notes Alongside Code:** Thoroughly comment the data structures used to store the sequence of screenshots and their associated decisions. Explain how the link between the screenshot and the decision is maintained.
-        * **Quick Markdown Snippets:** Create a `.md` file (e.g., `phase1_decision_model.md`) detailing the schema or data model used to represent the screenshot sequence and the decision for each step.
-        * **Focus on the "Why":** Explicitly document the reasoning behind the chosen data model for linking decisions to the sequence.
+* **Phase 1: Manual Screenshot Association and Decision Entry UI.**
+    * **Development:** Implement a user-friendly UI where a developer can manually select or input a reference to a captured screenshot. Alongside this, provide a prominent text input area for immediately typing in the decision, context, and rationale for that specific visual.
+    * **Documentation (Make It Happen - Manual UI):**
+        * **Short Notes Alongside Code:** Comment the UI elements and the underlying data structures that store the screenshot association and the manually entered decision text. Explain how the link between the screenshot and the decision is established.
+        * **Quick Markdown Snippets:** Create a `.md` file (e.g., `phase1_manual_ui.md`) detailing the design and implementation of the manual input UI for screenshots and decisions. Include mockups or descriptions of the UI elements.
+        * **Focus on the "Why" (of the UI):** Document the rationale behind the chosen UI elements and workflow to ensure a natural and intuitive manual entry experience for developers.
 
-* **Phase 2: Displaying the Decision-Indexed Sequence.**
-    * **Development:** Implement a view that clearly displays the ordered sequence of screenshots, with the corresponding decision/rationale visible for each step.
-    * **Documentation (Make It Happen):**
-        * **Short Notes Alongside Code:** Comment the code responsible for retrieving and displaying the ordered sequence and the associated decisions.
-        * **Quick Markdown Snippets:** Update the `.md` file or create a new one (e.g., `phase2_decision_display.md`) describing how the decisions are presented in relation to the screenshot sequence.
-        * **Focus on the "Why":** Document the design choices for how the decisions are visually presented to ensure clarity and understanding of the sequential logic.
+* **Phase 2: Sequential Display of Screenshots and Decisions (Manual Order).**
+    * **Development:** Implement a view that displays the sequence of manually added screenshots (perhaps as thumbnails or a list) along with the corresponding decision/rationale entered for each one, in the order they were manually added.
+    * **Documentation (Make It Happen - Manual Display):**
+        * **Short Notes Alongside Code:** Comment the code responsible for displaying the manually ordered list of screenshots and their associated decision text.
+        * **Quick Markdown Snippets:** Update the `.md` file or create a new one (e.g., `phase2_manual_display.md`) describing how the manually entered sequence and decisions are presented in the UI.
+        * **Focus on the "Why" (of the Display):** Document the design choices for the visual layout of the manual sequence and decisions to ensure clarity for the developer reviewing their process.
 
-* **Phase 3: Simple Export of Decisions and Sequence.**
-    * **Development:** Implement a basic mechanism to export the ordered sequence of screenshots along with the recorded decisions (e.g., to a structured text file or JSON).
-    * **Documentation (Make It Happen):**
-        * **Short Notes Alongside Code:** Comment the export functionality, clearly indicating how the screenshot sequence and the associated decisions are structured in the output format.
-        * **Quick Markdown Snippets:** Create a `.md` file (e.g., `phase3_decision_export.md`) detailing the chosen export format and the rationale for including both the sequence and the decisions.
-        * **Focus on the "Why":** Explain why this specific export format was chosen for capturing both the sequence and the underlying decisions.
+* **Phase 3: Simple Export of Manual Decision Log.**
+    * **Development:** Implement a basic mechanism to export the manually entered log of screenshots (as file paths or names) and their corresponding decisions in the order they were manually recorded (e.g., to a plain text file or a structured format like CSV).
+    * **Documentation (Make It Happen - Manual Export):**
+        * **Short Notes Alongside Code:** Comment the export functionality, detailing how the manual entry order of screenshots and decisions is preserved in the output file.
+        * **Quick Markdown Snippets:** Create a `.md` file (e.g., `phase3_manual_export.md`) describing the chosen export format and the rationale for its simplicity, aligning with the manual entry approach.
+        * **Focus on the "Why" (of the Format):** Explain why this specific export format was chosen to best represent the manually captured sequence and reasoning.
 
-* **Phase 4 (Stretch): Basic UI for Ordering (If Time Permits).**
-    * **Development:** If time allows, implement a basic UI to visually reorder the screenshots, ensuring that the associated decisions move with their respective screenshots.
-    * **Documentation (Make It Happen):** Document the UI implementation and how it interacts with the underlying data structure that links screenshots and decisions.
+* **Phase 4 (Stretch): Basic Manual Reordering (If Time Permits).**
+    * **Development:** If time allows, explore a simple manual UI element (e.g., up/down buttons or a basic drag-and-drop within the displayed list) to allow the developer to manually adjust the order of screenshots and their associated decisions *after* their initial manual entry.
+    * **Documentation (Make It Happen - Manual Reordering):** Document the UI implementation for manual reordering and how it updates the underlying data structure while keeping the decisions linked to their screenshots.
 
 **IV. Why This Matters:**
 
-* Prioritizes the critical aspect of indexing sequential decisions and their impact on the implementation process, which is key for understanding the video's creation logic.
-* Establishes a strong foundation for future UI enhancements and more complex video creation features, grounded in well-documented sequential reasoning.
-* The focus on documenting the "why" behind each step directly aligns with the need to capture the implementation process.
+* Directly aligns with a manual entry UI approach, focusing on a natural and intuitive experience for developers documenting their video creation process.
+* Prioritizes the immediate capture of the "why" behind each visual element through manual input.
+* Provides a straightforward, manually constructed log of the development flow and reasoning.
