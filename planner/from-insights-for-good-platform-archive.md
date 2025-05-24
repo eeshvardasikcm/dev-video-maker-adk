@@ -1,4 +1,5 @@
-### From Insights for Good Platform (archive) - Initial UI Plan (Manual Data Entry and Sequential Display with Image Upload for MVP Submission)
+## From Insights for Good Platform (archive) 
+### Initial UI Plan (Manual Data Entry and Sequential Display with Image Upload for MVP Submission)
 
 **I. Goal: Achieving MVP and a Runnable Submission by the Deadline**
 
